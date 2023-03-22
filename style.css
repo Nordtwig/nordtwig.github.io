@@ -4,7 +4,7 @@
 
 body {
     background-color: #162525;
-    margin-top: 150px;
+    margin-top: 75px;
 
 }
 
@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-    width: 380px;
+    width: 90%;
     margin: 50px auto;
     box-shadow:
   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
@@ -55,4 +55,14 @@ border-radius: 25px 50px;
     border-bottom-right-radius: 25px;
     border-left: 6px solid #afb1a9;
     border-bottom: 7px solid #afb1a9;
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        margin-top: 150px;
+    }
+
+    .container {
+        width: 380px;
+    }
 }

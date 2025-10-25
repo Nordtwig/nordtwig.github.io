@@ -1,9 +1,17 @@
+/* 
+# bone white: #dadbd6
+# bone shade: #afb1a9
+# dark blue: #2f4f4f
+# dark blue shade: #274141
+# aus. coral: #ef7a6c
+*/
+
 * {
     font-family: 'Roboto', sans-serif;
 }
 
 body {
-    background-color: #162525;
+    background-color: #212727;
     margin-top: 50px;
 
 }
@@ -16,7 +24,16 @@ nav {
 }
 
 nav a {
-    margin-right: 10%;
+    margin-right: 6%;
+    text-decoration: none;
+    color: #fbecde;
+    transition: all 0.4s;
+    position: relative;
+}
+
+nav a:hover {
+    color: #fcfcfc;
+    text-shadow: 0 0 10px #ef7a6c, 0 0 20px #ef7a6c, 0 0 30px #ef7a6c, 0 0 40px #ef7a6c;
 }
 
 .container h1 {
@@ -27,21 +44,21 @@ nav a {
     width: 90%;
     margin: 50px auto;
     box-shadow:
-  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-  0 12.5px 10px rgba(0, 0, 0, 0.06),
-  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-  0 100px 80px rgba(0, 0, 0, 0.12)
-;
-border-radius: 25px 50px;
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12)
+    ;
+    border-radius: 25px 50px;
 }
 
 .container-header {
     border-top-left-radius: 25px;
     border-top-right-radius: 50px;
-    border-left: 6px solid #274141;
-    background-color: #2f4f4f;
+    border-left: 6px solid #964940;
+    background-color: #cc5b4f;
     color: aliceblue;
     padding: 25px;
 
@@ -54,30 +71,39 @@ border-radius: 25px 50px;
 .container-body {
     padding: 0px 25px;
     padding-top: 25px;
-    background-color: #dadbd6;
-    border-left: 6px solid #afb1a9;
+    background-color: #444F4F;
+    border-left: 6px solid #363f3f;
     color: #272727;
+}
+
+.container img {
+    max-width: 100%;
+    border-radius: 15px;
 }
 
 .container p {
     margin: 0;
+    color: #fbecde;
 }
 
 .container-footer {
+    margin-top: -10px;
     padding: 25px;
-    background-color: #dadbd6;
+    background-color: #444F4F;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 25px;
-    border-left: 6px solid #afb1a9;
-    border-bottom: 7px solid #afb1a9;
+    border-left: 6px solid #363f3f;
+    border-bottom: 7px solid #363f3f;
 }
 
 @media screen and (min-width: 600px) {
-    body {
-        margin-top: 150px;
-    }
-
     .container {
-        width: 380px;
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .container {
+        width: 700px;
     }
 }

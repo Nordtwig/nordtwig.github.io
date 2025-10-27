@@ -13,8 +13,6 @@ var about = [
 	{
 		name: "Noah",
 		description: "31 years old, living in Sweden. Making games and software in my spare time, when I'm not geeting or flexing puny muscles at the local gym.",
-		url: "https://github.com/Nordtwig",
-
 	}
 ]
 
@@ -62,13 +60,8 @@ function loadAbout() {
 		name.textContent = person.name;
 		let description = document.createElement('p');
 		description.textContent = person.description;
-		let link = document.createElement('a');
-		link.target = "_blank";
-		link.href = person.url;
-		link.textContent = "View Profile";
 		personDiv.appendChild(name);
 		personDiv.appendChild(description);
-		personDiv.appendChild(link);
 		container.appendChild(personDiv);
 	}) 
 }

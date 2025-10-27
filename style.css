@@ -11,9 +11,9 @@
 }
 
 body {
-    background-color: #212727;
+    background-color: #242424;
     margin-top: 50px;
-
+    color: #fbecde;
 }
 
 nav {
@@ -52,6 +52,13 @@ nav a:hover {
         0 100px 80px rgba(0, 0, 0, 0.12)
     ;
     border-radius: 25px 50px;
+    border: #080808c7 solid 1px;
+}
+
+.container-divider {
+    height: 1px;
+    background-color: #441f1f;
+    border-left: 6px solid #4b2626;
 }
 
 .container-header {
@@ -61,7 +68,7 @@ nav a:hover {
     background-color: #cc5b4f;
     color: aliceblue;
     padding: 25px;
-
+    box-shadow: 0px 5px 1px rgba(0, 0, 0, 1);
 }
 
 .container-header h1 {
@@ -71,14 +78,13 @@ nav a:hover {
 .container-body {
     padding: 0px 25px;
     padding-top: 25px;
-    background-color: #444F4F;
-    border-left: 6px solid #363f3f;
-    color: #272727;
+    background-color: #4A4A4A;
+    border-left: 6px solid #3b3b3b;
 }
 
 .container img {
     max-width: 100%;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .container p {
@@ -89,11 +95,11 @@ nav a:hover {
 .container-footer {
     margin-top: -10px;
     padding: 25px;
-    background-color: #444F4F;
+    background-color: #4A4A4A;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 25px;
-    border-left: 6px solid #363f3f;
-    border-bottom: 7px solid #363f3f;
+    border-left: 6px solid #3b3b3b;
+    border-bottom: 7px solid #3b3b3b;
 }
 
 @media screen and (min-width: 600px) {

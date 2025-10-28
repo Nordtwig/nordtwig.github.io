@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: #242424;
+    background-color: #131825;
     margin-top: 50px;
     color: #fbecde;
 }
@@ -78,8 +78,8 @@ nav a:hover {
 .container-body {
     padding: 0px 25px;
     padding-top: 25px;
-    background-color: #4A4A4A;
-    border-left: 6px solid #3b3b3b;
+    background-color: #3c4655;
+    border-left: 6px solid #2c343f;
 }
 
 .container img {
@@ -95,11 +95,11 @@ nav a:hover {
 .container-footer {
     margin-top: -10px;
     padding: 25px;
-    background-color: #4A4A4A;
+    background-color: #3c4655;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 25px;
-    border-left: 6px solid #3b3b3b;
-    border-bottom: 7px solid #3b3b3b;
+    border-left: 6px solid #2c343f;
+    border-bottom: 7px solid #2c343f;
 }
 
 @media screen and (min-width: 600px) {

@@ -50,8 +50,10 @@ nav a:hover {
 
 .container-divider {
     height: 1px;
-    background-color: #1f1f1f;
+    background-color: #272727;
     border-left: 6px solid #242424;
+    margin: 0;
+    width: 100%;
 }
 
 .alert {
@@ -97,16 +99,20 @@ nav a:hover {
     display: inline;
 }
 
-.container-body {
-    padding: 0px 25px;
-    padding-top: 25px;
+.container-card {
     background-color: #3c4655;
+    padding: 25px;
     border-left: 6px solid #2c343f;
 }
 
 .container img {
     max-width: 100%;
     border-radius: 5px;
+}
+
+.tech-item img {
+    max-width: 50px;
+    margin-right: 15px;
 }
 
 .container-footer {

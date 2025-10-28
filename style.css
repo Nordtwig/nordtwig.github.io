@@ -1,19 +1,11 @@
-/* 
-# bone white: #dadbd6
-# bone shade: #afb1a9
-# dark blue: #2f4f4f
-# dark blue shade: #274141
-# aus. coral: #ef7a6c
-*/
-
 * {
     font-family: 'Roboto', sans-serif;
 }
 
 body {
-    background-color: #131825;
+    background-color: #0e2124;
     margin-top: 50px;
-    color: #fbecde;
+    color: #faf3dd;
 }
 
 nav {
@@ -24,6 +16,7 @@ nav {
 }
 
 nav a {
+    margin-bottom: -2px;
     margin-right: 6%;
     text-decoration: none;
     color: #fbecde;
@@ -57,8 +50,37 @@ nav a:hover {
 
 .container-divider {
     height: 1px;
-    background-color: #441f1f;
-    border-left: 6px solid #4b2626;
+    background-color: #1f1f1f;
+    border-left: 6px solid #242424;
+}
+
+.alert {
+    padding: 15px 25px;
+}
+
+.container-news {
+    background-color: #269b5b;
+    border-left: 6px solid #1c7443;
+}
+
+.container-warning {
+    background-color: #e79d13;
+    border-left: 6px solid #865e08;
+}
+
+.container-info {
+    background-color: #3b82f6;
+    border-left: 6px solid #1943a3;
+}
+
+.container p {
+    margin: 0;
+    color: #fbecde;
+}
+
+.alert p {
+    margin-top: 2px;
+    text-shadow: #3a3a3a 0px 1px 5px;
 }
 
 .container-header {
@@ -87,11 +109,6 @@ nav a:hover {
     border-radius: 5px;
 }
 
-.container p {
-    margin: 0;
-    color: #fbecde;
-}
-
 .container-footer {
     margin-top: -10px;
     padding: 25px;
@@ -100,6 +117,25 @@ nav a:hover {
     border-bottom-right-radius: 25px;
     border-left: 6px solid #2c343f;
     border-bottom: 7px solid #2c343f;
+}
+
+.container-footer p {
+    font-size: 10px;
+    color: #b0b0b0;
+    margin-bottom:  -15px;
+    text-align: right;
+}
+
+.container-footer a {
+    color: #c0c0c0;
+    text-decoration: none;
+    text-shadow: #1f1f1f 0px 1px 5px;
+    transition: all 0.4s;
+}
+
+.container-footer a:hover {
+    text-shadow: #ffffff 0px 1px 1px;
+    transform: scale(1.05);
 }
 
 @media screen and (min-width: 600px) {

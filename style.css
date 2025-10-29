@@ -115,6 +115,13 @@ nav a:hover {
     margin-right: 15px;
 }
 
+.tech-item a {
+    color: #3b82f6;
+    text-decoration: none;
+    text-shadow: #1f1f1f 0px 1px 5px;
+    transition: all 0.4s;
+}
+
 .container-footer {
     margin-top: -10px;
     padding: 25px;

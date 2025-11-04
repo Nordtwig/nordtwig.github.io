@@ -11,7 +11,7 @@ var projects = [
 var techStack = [
 	{
 		name: "Unity",
-		description: "Game Engine, using C# as main programming language.",
+		description: "Game Engine, using C# as main programming language. Used for Project Metrotopia.",
 		url: "https://unity.com/",
 		logo: "images/logos/unity_logo.png",
 	},
